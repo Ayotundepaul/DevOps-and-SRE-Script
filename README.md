@@ -69,6 +69,70 @@ Replace `[IMAGE_NAME]` with the desired image name and `[TAG]` with the desired 
 
 Alerts will be logged to `/var/log/disk_space_monitor.log`.
 
+---
+
+## Additional Bash Scripts
+
+### Backup a Directory
+
+**Script Name:** `backup_directory.sh`
+
+**Purpose:** Create a tarball (compressed archive) backup of a specified directory.
+
+**Usage:**
+```bash
+./backup_directory.sh <directory_to_backup>
+```
+
+### Check Website Status
+
+**Script Name:** `check_website_status.sh`
+
+**Purpose:** Check the status of a website and print a message.
+
+**Usage:**
+```bash
+./check_website_status.sh <website_url>
+```
+
+### Beautify Terminal
+
+**Script Name:** `beautify_terminal.sh`
+
+**Purpose:** Customize the terminal prompt to show the current directory, Git branch, and add some useful aliases.
+
+**Usage:**
+```bash
+./beautify_terminal.sh
+```
+After running the script, you may need to restart your terminal or run `source ~/.bashrc` for the changes to take effect.
+
+### Delete Old Files
+
+**Script Name:** `delete_old_files.sh`
+
+**Purpose:** Deletes files older than a specified number of days from a given directory.
+
+**Usage:**
+```bash
+./delete_old_files.sh <directory> <days_old>
+```
+
+### Count Lines of Code
+
+**Script Name:** `count_lines_of_code.sh`
+
+**Purpose:** Counts lines of code in a given directory.
+
+**Usage:**
+```bash
+./count_lines_of_code.sh <directory>
+```
+
+---
+
+
+
 ## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, please submit a pull request or create an issue.
